@@ -19,7 +19,7 @@ class Header extends Component {
                 </ul>
                 <nav>
                     <div className="nav-wrapper grey lighten-5">
-                        <a href="/manager" className="brand-logo blue-text text-darken-1"><img width={24} height={24} alt="" src={require('../../images/icon.png')} />
+                        <a href="/home" className="brand-logo blue-text text-darken-1"><img width={24} height={24} alt="" src={require('../../images/icon.png')} />
                         <span className="hide-on-med-and-down">LazyOut</span></a>
                         <a href="/" data-activates="slide-out" className="button-collapse blue-text text-darken-1"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
