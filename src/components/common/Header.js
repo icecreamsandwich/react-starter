@@ -26,9 +26,9 @@ class Header extends Component {
                             <li><a className="black-text" href="/home">Home</a></li>
                             <li><a className="black-text" href="/about">About</a></li>
                             <li><a className="black-text" href="/lorem">Lorem</a></li>                          
-                            <li><a className="dropdown-button black-text" href="#" data-activates="dropdown1" data-beloworigin="true" data-hover="true">
+                            <li><a className="dropdown-button black-text" href="" data-activates="dropdown1" data-beloworigin="true" data-hover="true">
                             {this.state.username}
-                            <img className="circle circle-small" src={this.state.picture}/>
+                            <img className="circle circle-small" alt="" src={this.state.picture}/>
                             <i className="material-icons right">group</i></a></li>
                         </ul>
                     </div>

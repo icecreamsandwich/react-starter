@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style.css';
 
-class About extends React.Component {
+class About extends Component {
 
   render() {
 
